@@ -1,0 +1,7 @@
+<launch>
+  <node name="urg_node" pkg="urg_node" type="urg_node" output="screen">
+  <remap from="/scan" to="/laser/scan"/>  
+  </node>
+
+
+</launch>

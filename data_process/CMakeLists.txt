@@ -189,6 +189,9 @@ target_link_libraries(scantocloud
 ## Mark other files for installation (e.g. launch and bag files, etc.)
  install(FILES
     data_process.launch
+    pid_control.launch
+    ukf_process.launch
+data_process.launch
 #   # myfile2
    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
  )
